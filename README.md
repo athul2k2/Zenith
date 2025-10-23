@@ -1,4 +1,4 @@
-# ZENITH — PC Parts Store (backend skeleton)
+# ZENITH — PC Parts Store
 
 This repo contains the backend skeleton for ZENITH — an e-commerce platform for gaming peripherals.
 
