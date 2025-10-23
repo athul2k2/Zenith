@@ -1,0 +1,32 @@
+# Java
+*.class
+*.jar
+*.war
+target/
+
+# Maven/Gradle
+.mvn/
+.idea/
+.gradle/
+
+# IntelliJ
+/.idea/
+/*.iml
+
+# Node
+node_modules/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+logs/
+*.log
+
+# mac
+.DS_Store
+
+# Docker
+**/docker-compose.override.yml
