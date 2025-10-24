@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   postgres:
     image: postgres:14
@@ -28,9 +27,13 @@ services:
       - postgres
 
   backend:
+    # --- FIX APPLIED HERE ---
+    # The context is changed from './backend' to './services/api'
+    # to correctly locate the mvnw, pom.xml, and src directories.
     build:
-      context: ./backend
+      context: ./backend/services/api/
       dockerfile: Dockerfile
+    # ------------------------
     image: zenith-backend:local
     container_name: zenith_backend
     env_file:
